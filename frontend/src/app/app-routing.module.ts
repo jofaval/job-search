@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'buscar' , component: SearchComponent    },
   { path: 'empresa', component: BussinessComponent },
   { path: 'perfil' , component: ProfileComponent   },
-  { path: ''       , component: HomeComponent      },
+  { path: '**'     , component: HomeComponent      },
 ];
 
 @NgModule({
