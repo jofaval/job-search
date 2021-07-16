@@ -8,12 +8,14 @@ import { environment } from '../environments/environment';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderElementComponent } from './header-element/header-element.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HeaderElementComponent
+    HeaderElementComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
