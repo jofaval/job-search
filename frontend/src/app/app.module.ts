@@ -13,6 +13,8 @@ import { SearchComponent } from './search/search.component';
 import { BussinessComponent } from './bussiness/bussiness.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SearchComponent,
     BussinessComponent,
     ProfileComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
