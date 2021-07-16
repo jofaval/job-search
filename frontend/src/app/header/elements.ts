@@ -4,8 +4,8 @@ import { faBusinessTime, faHome, faSearch, faUser, faUserPlus } from '@fortaweso
  * Todos los elementos de navegación de la aplicación
  */
 export const ELEMENTS = [
-    { name: 'Home'   , url: '/', icon: faHome     },
-    { name: 'Buscar' , url: '/', icon: faSearch   },
-    { name: 'Empresa', url: '/', icon: faBusinessTime },
-    { name: 'Perfil' , url: '/', icon: faUser     },
+    { name: 'Home'   , url: '/home'    , icon: faHome         },
+    { name: 'Buscar' , url: '/buscar'  , icon: faSearch       },
+    { name: 'Empresa', url: '/empresa' , icon: faBusinessTime },
+    { name: 'Perfil' , url: '/perfil'  , icon: faUser         },
 ];
