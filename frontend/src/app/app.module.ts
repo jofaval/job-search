@@ -11,6 +11,7 @@ import { HeaderElementComponent } from './header-element/header-element.componen
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { BussinessComponent } from './bussiness/bussiness.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BussinessComponent } from './bussiness/bussiness.component';
     HomeComponent,
     SearchComponent,
     BussinessComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
