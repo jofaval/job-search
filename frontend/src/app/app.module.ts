@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderElementComponent } from './header-element/header-element.component';
 import { HomeComponent } from './home/home.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     HeaderElementComponent,
     HomeComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
