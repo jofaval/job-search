@@ -7,12 +7,12 @@ import { ProfileComponent } from './profile/profile.component';
 import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
-  { path: 'home'    , component: HomeComponent         },
-  { path: 'buscar'  , component: SearchComponent       },
-  { path: 'empresa' , component: BussinessComponent    },
-  { path: 'perfil'  , component: ProfileComponent      },
-  { path: ''        , component: HomeComponent         },
-  { path: '**'      , component: PageNotFoundComponent },
+  { path: 'home'    , component: HomeComponent                                                  },
+  { path: 'buscar'  , component: SearchComponent                                                },
+  { path: 'empresa' , component: BussinessComponent                                             },
+  { path: 'perfil'  , component: ProfileComponent                                               },
+  { path: ''        , component: HomeComponent        /*  , redirectTo: '/home', pathMatch: 'full' */ },
+  { path: '**'      , component: PageNotFoundComponent                                          },
 ];
 
 @NgModule({
