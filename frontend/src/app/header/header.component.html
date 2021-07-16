@@ -1,8 +1,10 @@
 <div class="app-header">
-    <app-header-element *ngFor="let element of ELEMENTS"
-        [elementName]="element.name"
-        [elementIcon]="element.icon"
-        [elementUrl]="element.url"
-    >
-    </app-header-element>
+    <nav>
+        <app-header-element *ngFor="let element of ELEMENTS"
+            [elementName]="element.name"
+            [elementIcon]="element.icon"
+            [elementUrl]="element.url"
+        >
+        </app-header-element>
+    </nav>
 </div>
